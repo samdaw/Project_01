@@ -11,6 +11,11 @@ body {
   color: #222;
   background: #f7f5f0;
 }
+
+img {
+  max-width: 100%;
+}
+
 /* Link Styles */
 
 a {
@@ -90,14 +95,15 @@ header .profile-image:hover {
   color: white;
 }
 .card {
-  margin: 30px;
+  margin: 20px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 600px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  float: left;
 }
 .card:hover {
   border-color: #a3a3a3;
@@ -166,6 +172,10 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.experience-img {
+  border-radius: 5px;
 }
 
 /* Styles for larger screens */
